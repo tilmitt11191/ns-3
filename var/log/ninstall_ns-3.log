@@ -6,3 +6,163 @@
 [DEBUG] install_ns-3.sh start
 --------20160719101619 install_ns-3.sh --------
 [DEBUG] install_ns-3.sh start
+--------20160719103017 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start
+--------20160719103144 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start
+--------20160719103200 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start
+--------20160719103613 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start
+--------20160719103631 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start
+--------20160719103654 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start at `date`
+--------20160719103712 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start at Tue Jul 19 10:37:12 JST 2016
+--------20160719103742 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start at Tue Jul 19 10:37:42 JST 2016
+--------20160719103756 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start at Tue Jul 19 10:37:56 JST 2016
+--------20160719103829 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start at Tue Jul 19 10:38:29 JST 2016
+--------20160719103904 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start at Tue Jul 19 10:39:04 JST 2016
+--------20160719104011 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start at Tue Jul 19 10:40:11 JST 2016
+--------20160719104050 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start at Tue Jul 19 10:40:50 JST 2016
+--------20160719104050 install_ns-3.sh --------
+[DEBUG] https://www.nsnam.org/release/ns-allinone-3.25.tar.bz2 -o ../usr/local/src/ns-allinone-3.25.tar.bz2
+--------20160719104309 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start at Tue Jul 19 10:43:09 JST 2016
+--------20160719104309 install_ns-3.sh --------
+[DEBUG] wget https://www.nsnam.org/release/ns-allinone-3.25.tar.bz2 -o ../usr/local/src/ns-allinone-3.25.tar.bz2
+--------20160719104436 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start at Tue Jul 19 10:44:36 JST 2016
+--------20160719104436 install_ns-3.sh --------
+[DEBUG] wget https://www.nsnam.org/release/ns-allinone-3.25.tar.bz2 -o ../usr/local/src/ns-allinone-3.25.tar.bz2
+--------20160719104454 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start at Tue Jul 19 10:44:54 JST 2016
+--------20160719104537 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start at Tue Jul 19 10:45:37 JST 2016
+--------20160719104537 install_ns-3.sh --------
+[DEBUG] 
+--------20160719104601 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start at Tue Jul 19 10:46:01 JST 2016
+--------20160719104601 install_ns-3.sh --------
+[DEBUG] wget https://www.nsnam.org/release/ns-allinone-3.25.tar.bz2 -o ../usr/local/src/ns-allinone-3.25.tar.bz2
+--------20160719104748 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start at Tue Jul 19 10:47:48 JST 2016
+--------20160719104748 install_ns-3.sh --------
+[DEBUG] wget https://www.nsnam.org/release/ns-allinone-3.25.tar.bz2 -o ../usr/local/src/ns-allinone-3.25.tar.bz2
+--------20160719105112 install_ns-3.sh --------
+[DEBUG] install_ns-3.sh start at Tue Jul 19 10:51:12 JST 2016
+--------20160719105633 install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 10:56:33 JST 2016
+--------20160719105656 install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 10:56:56 JST 2016
+--------20160719105656 install_ns-3.sh --------
+[INFO] 
+--------20160719105725 install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 10:57:24 JST 2016
+--------20160719105725 install_ns-3.sh --------
+[INFO] 
+--------20160719105725 install_ns-3.sh --------
+[INFO] install_ns-3.sh finished at Tue Jul 19 10:57:25 JST 2016
+--------20160719105738 install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 10:57:38 JST 2016
+--------20160719110132 install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 11:01:32 JST 2016
+--------20160719110132 install_ns-3.sh --------
+[INFO] 
+--------20160719110201 install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 11:02:01 JST 2016
+--------20160719110210 install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 11:02:10 JST 2016
+--------20160719110228 install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 11:02:28 JST 2016
+--------20160719110252 install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 11:02:52 JST 2016
+--------20160719110343 install_ns-3.sh --------
+[INFO] install_ns-3.sh finished at Tue Jul 19 11:03:43 JST 2016
+--------20160719111201 ../bin/install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 11:12:01 JST 2016
+--------20160719111519 ../bin/install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 11:15:19 JST 2016
+--------20160719111612 ../bin/install_ns-3.sh --------
+[INFO] install_ns-3.sh finished at Tue Jul 19 11:16:12 JST 2016
+--------20160719113532 ../../../bin/install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 11:35:32 JST 2016
+--------20160719113624 ../../../bin/install_ns-3.sh --------
+[INFO] install_ns-3.sh finished at Tue Jul 19 11:36:24 JST 2016
+--------20160719132528 ../../../bin/install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 13:25:28 JST 2016
+--------20160719132529 ../../../bin/install_ns-3.sh --------
+[INFO] apt-get install -y mercurial.
+--------20160719132647 ../../../bin/install_ns-3.sh --------
+[INFO] apt-get install -y bzr.
+--------20160719132925 ../../../bin/install_ns-3.sh --------
+[INFO] apt-get install -y libc6-dev-i386.
+--------20160719133528 ../../../bin/install_ns-3.sh --------
+[INFO] apt-get install -y valgrind.
+--------20160719133630 ../../../bin/install_ns-3.sh --------
+[INFO] apt-get install -y gsl-bin.
+--------20160719133703 ../../../bin/install_ns-3.sh --------
+[INFO] apt-get install -y libgsl0-dev.
+--------20160719133748 ../../../bin/install_ns-3.sh --------
+[INFO] apt-get install -y libfl-dev.
+--------20160719133814 ../../../bin/install_ns-3.sh --------
+[INFO] apt-get install -y sqlite.
+--------20160719133843 ../../../bin/install_ns-3.sh --------
+[INFO] apt-get install -y libsqlite3-dev.
+--------20160719133903 ../../../bin/install_ns-3.sh --------
+[INFO] apt-get install -y libgtk2.0-dev.
+--------20160719134556 ../../../bin/install_ns-3.sh --------
+[INFO] apt-get install -y vtun.
+--------20160719134626 ../../../bin/install_ns-3.sh --------
+[INFO] apt-get install -y uncrustify.
+--------20160719134646 ../../../bin/install_ns-3.sh --------
+[INFO] apt-get install -y doxygen.
+--------20160719134757 ../../../bin/install_ns-3.sh --------
+[INFO] apt-get install -y texlive.
+--------20160719141640 ../../../bin/install_ns-3.sh --------
+[INFO] ---- download and decompress.
+--------20160719141640 ../../../bin/install_ns-3.sh --------
+[INFO] tar jxvf ../usr/local/src/ns-allinone-3.25.tar.bz2 -C ../usr/local/src 1> /dev/null
+--------20160719141741 ../../../bin/install_ns-3.sh --------
+[INFO] install_ns-3.sh finished at Tue Jul 19 14:17:41 JST 2016
+--------20160719142617 /home/alladmin/f/program/ns-3/bin/install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 14:26:17 JST 2016
+--------20160719142623 /home/alladmin/f/program/ns-3/bin/install_ns-3.sh --------
+[INFO] ---- download and decompress.
+--------20160719142623 /home/alladmin/f/program/ns-3/bin/install_ns-3.sh --------
+[INFO] wget https://www.nsnam.org/release/ns-allinone-3.25.tar.bz2 -o ../usr/local/src/ns-allinone-3.25.tar.bz2
+--------20160719142711 /home/alladmin/f/program/ns-3/bin/install_ns-3.sh --------
+[INFO] tar jxvf /usr/local/src/ns-allinone-3.25.tar.bz2 -C /usr/local/src/ 1> /dev/null
+--------20160719142711 /home/alladmin/f/program/ns-3/bin/install_ns-3.sh --------
+[INFO] install_ns-3.sh finished at Tue Jul 19 14:27:11 JST 2016
+--------20160719142758 /home/alladmin/f/program/ns-3/bin/install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 14:27:58 JST 2016
+--------20160719142801 /home/alladmin/f/program/ns-3/bin/install_ns-3.sh --------
+[INFO] ---- download and decompress.
+--------20160719142801 /home/alladmin/f/program/ns-3/bin/install_ns-3.sh --------
+[INFO] tar jxvf /usr/local/src/ns-allinone-3.25.tar.bz2 -C /usr/local/src/ 1> /dev/null
+--------20160719142825 /home/alladmin/f/program/ns-3/bin/install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 14:28:25 JST 2016
+--------20160719142830 /home/alladmin/f/program/ns-3/bin/install_ns-3.sh --------
+[INFO] ---- download and decompress.
+--------20160719142830 /home/alladmin/f/program/ns-3/bin/install_ns-3.sh --------
+[INFO] tar jxvf /usr/local/src/ns-allinone-3.25.tar.bz2 -C /usr/local/src/ 1> /dev/null
+--------20160719142948 install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 14:29:48 JST 2016
+--------20160719142953 install_ns-3.sh --------
+[INFO] ---- download and decompress.
+--------20160719142953 install_ns-3.sh --------
+[INFO] tar jxvf /usr/local/src/ns-allinone-3.25.tar.bz2 -C /usr/local/src/ 1> /dev/null
+--------20160719143009 install_ns-3.sh --------
+[INFO] install_ns-3.sh start at Tue Jul 19 14:30:09 JST 2016
+--------20160719143015 install_ns-3.sh --------
+[INFO] ---- download and decompress.
+--------20160719143015 install_ns-3.sh --------
+[INFO] tar jxvf /usr/local/src/ns-allinone-3.25.tar.bz2 -C /usr/local/src/ 1> /dev/null

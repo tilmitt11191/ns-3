@@ -2,7 +2,7 @@
 #!/bin/bash
 export LANG=C
 
-LOG_FILE="../../var/log/log"
+LOG_FILE="$(cd $(dirname $0) && pwd)/var/log/log"
 LOG_LEVEL="DEBUG"
 
 function rotate_logfile(){
@@ -12,7 +12,7 @@ function rotate_logfile(){
 	if [ ! -e $LOG_FILE ];then
 		cp /dev/null $LOG_FILE
 	fi
-
+	pwd
 	local rotate_size=100000 #line
 	local logfile_line_num=`wc -l < $LOG_FILE`
 	if [ $logfile_line_num -ge $rotate_size ];then
