@@ -1,13 +1,18 @@
 
 #!/bin/bash
+source ../lib/util/utils.sh
+
 export LANG=C
 cd `dirname $0`
 
 VERSION=3.25
+current_dir=`pwd`
+user=`whoami`
 install_dir=/usr/local/src
+tar_file=ns-allinone-$VERSION.tar.bz2
+LOG_FILE="$(cd $(dirname $0) && pwd)/../var/log/install-ns-3.log"
 
-source ../lib/util/utils.sh
-function log_info_() { echo $1; log_info "$1" "$(cd $(dirname $0) && pwd)/../var/log/install-ns-3.log";}
+function log_info_() { echo $1; log_info "$1" "$LOG_FILE" ;}
 
 
 log_info_ "install-ns-3.sh start at `date`"
@@ -28,19 +33,31 @@ log_info_ "install-ns-3.sh start at `date`"
 #	fi
 #done
 
+cd $install_dir
+log_info_ "pwd[`pwd`]"
 
-#log_info_ "---- download and decompress."
-#tar_dir=../usr/local/src
-#tar_file=ns-allinone-$VERSION.tar.bz2
+log_info_ "---- download and decompress."
 #if [ ! -e "$install_dir/ns-allinone-$VERSION.tar.bz2" ];then
-#	log_info_ "wget https://www.nsnam.org/release/ns-allinone-$VERSION.#tar.bz2 -o $tar_dir/$tar_file"
-#	wget "https://www.nsnam.org/release/ns-allinone-$VERSION.tar.bz2" -o "$tar_dir/$tar_file"
-#	sudo cp $tar_dir/$tar_file $install_dir/$tar_file
+#	log_info_ "sudo wget https://www.nsnam.org/release/ns-allinone-$VERSION.tar.bz2"
+#	sudo wget "https://www.nsnam.org/release/ns-allinone-$VERSION.tar.bz2"
+#else
+#	log_info_ "$install_dir/ns-allinone-$VERSION.tar.bz2 already exists."
 #fi
 
-log_info_ "tar jxvf $install_dir/$tar_file -C $install_dir/ 1> /dev/null"
-cd $install_dir
-sudo tar jxvf $install_dir/$tar_file -C $install_dir/ 1> /dev/null
+log_info_ "sudo tar xvf $tar_file"
+#sudo tar xvf $tar_file
 
+sudo chown -R $user ./ns-allinone-$VERSION
+sudo chmod -R 774 ./ns-allinone-$VERSION
+
+log_info_ "---- build."
+log_info_ "cd ./ns-allinone-$VERSION"
+cd ./ns-allinone-$VERSION
+log_info_ "./build.py --enable-examples --enable-tests"
+./build.py --enable-examples --enable-tests
+
+log_info_ "---- test."
+cd ns-$VERSION
+./test.py
 
 log_info_ "install-ns-3.sh finished at `date`"

@@ -12,7 +12,6 @@ function rotate_logfile(){
 	if [ ! -e $LOG_FILE ];then
 		cp /dev/null $LOG_FILE
 	fi
-	pwd
 	local rotate_size=100000 #line
 	local logfile_line_num=`wc -l < $LOG_FILE`
 	if [ $logfile_line_num -ge $rotate_size ];then
